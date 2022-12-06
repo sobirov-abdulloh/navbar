@@ -1,0 +1,82 @@
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 65px;
+}
+.top > div {
+  display: flex;
+  align-items: center;
+}
+.top > div .birhil {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #999999;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 15px 65px;
+  justify-content: space-between;
+  border-top: 1px solid rgb(189, 189, 189);
+}
+.nav > .navChap {
+  display: flex;
+  align-items: center;
+}
+.nav > .navChap > button {
+  margin-left: 20px;
+  background-color: #0f58e5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: white;
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+.nav > .navOrta {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  width: 40%;
+  padding: 0 10px;
+}
+.nav > .navOrta > input {
+  border: none;
+  padding: 5px 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  width: 100%;
+  outline: none;
+}
+.nav > .navOn {
+  display: flex;
+  align-items: center;
+}
+.nav > .navOn > div {
+  display: flex;
+  align-items: center;
+}
+.nav > .navOn > div > img {
+  margin-right: 15px;
+}
+.nav > .navOn > button {
+  border: 1px solid #0f58e5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 10px 15px;
+  margin-left: 50px;
+  color: #0f58e5;
+  background-color: white;
+}
